@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idsolicitante" msprop:Generator_ColumnVarNameInTable="columnidsolicitante" msprop:Generator_ColumnPropNameInRow="idsolicitante" msprop:Generator_ColumnPropNameInTable="idsolicitanteColumn" msprop:Generator_UserColumnName="idsolicitante" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="tipo" msprop:Generator_ColumnVarNameInTable="columntipo" msprop:Generator_ColumnPropNameInRow="tipo" msprop:Generator_ColumnPropNameInTable="tipoColumn" msprop:Generator_UserColumnName="tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="resolucion" msprop:Generator_ColumnVarNameInTable="columnresolucion" msprop:Generator_ColumnPropNameInRow="resolucion" msprop:Generator_ColumnPropNameInTable="resolucionColumn" msprop:Generator_UserColumnName="resolucion" type="xs:string" minOccurs="0" />
+              <xs:element name="fecharesolucion" msprop:Generator_ColumnVarNameInTable="columnfecharesolucion" msprop:Generator_ColumnPropNameInRow="fecharesolucion" msprop:Generator_ColumnPropNameInTable="fecharesolucionColumn" msprop:Generator_UserColumnName="fecharesolucion" type="xs:string" minOccurs="0" />
+              <xs:element name="fechanotificado" msprop:Generator_ColumnVarNameInTable="columnfechanotificado" msprop:Generator_ColumnPropNameInRow="fechanotificado" msprop:Generator_ColumnPropNameInTable="fechanotificadoColumn" msprop:Generator_UserColumnName="fechanotificado" type="xs:string" minOccurs="0" />
+              <xs:element name="huellaimg" msprop:Generator_ColumnVarNameInTable="columnhuellaimg" msprop:Generator_ColumnPropNameInRow="huellaimg" msprop:Generator_ColumnPropNameInTable="huellaimgColumn" msprop:Generator_UserColumnName="huellaimg" type="xs:anyType" minOccurs="0" />
+              <xs:element name="firma" msprop:Generator_ColumnVarNameInTable="columnfirma" msprop:Generator_ColumnPropNameInRow="firma" msprop:Generator_ColumnPropNameInTable="firmaColumn" msprop:Generator_UserColumnName="firma" type="xs:anyType" minOccurs="0" />
+              <xs:element name="codseguridad" msprop:Generator_ColumnVarNameInTable="columncodseguridad" msprop:Generator_ColumnPropNameInRow="codseguridad" msprop:Generator_ColumnPropNameInTable="codseguridadColumn" msprop:Generator_UserColumnName="codseguridad" type="xs:string" minOccurs="0" />
+              <xs:element name="qrcode" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnqrcode" msprop:Generator_ColumnPropNameInRow="qrcode" msprop:Generator_ColumnPropNameInTable="qrcodeColumn" msprop:Generator_UserColumnName="qrcode" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
